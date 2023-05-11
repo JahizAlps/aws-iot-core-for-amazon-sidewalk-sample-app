@@ -39,7 +39,7 @@ class ProvisionWrapper:
         self.SILABS_XG21 = 'mg21'
         self.SILABS_XG24 = 'mg24'
         self.SILABS_XG21_MEMORY = '1024'
-        self.SILABS_XG24_MEMORY = '1536'
+        self.SILABS_XG24_MEMORY = '1024'
 
     def generate_mfg(self, output_dir, input_type, wireless_device_path=None, device_profile_path=None,
                      certificate_json=None):
